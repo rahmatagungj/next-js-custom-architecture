@@ -1,0 +1,20 @@
+import Payload from "@/Payload/Payload";
+import HomeUserInterface from "@/UserInterface/HomeUserInterface";
+
+export default class HomeSpesification {
+
+  /**
+   * 
+   * @param {*} props 
+   * @returns 
+   */
+  run(props) {
+    const payload = new Payload(200, HomeUserInterface(props))  
+    
+    if (payload.status === 200) {
+      return payload.data
+    }
+
+    throw new Error(payload.data)
+  }
+}
