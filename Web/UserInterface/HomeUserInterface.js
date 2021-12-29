@@ -1,4 +1,6 @@
 import {useState, useEffect} from 'react';
+import kebabCase from '@/Infrastructure/lib/kebabCase'
+
 
 let count = 0
 
@@ -14,7 +16,7 @@ export default function HomeUserInterface({name, email}) {
 
   return (
     <div>
-      <h1>{names}</h1>
+      <h1>{kebabCase(names)}</h1>
       <p>
         {email}
       </p>

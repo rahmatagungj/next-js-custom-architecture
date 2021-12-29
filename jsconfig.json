@@ -3,15 +3,14 @@
     "baseUrl": ".",
     "paths": {
       "@/Infrastructure/*": ["Infrastructure/*"],
-      "@/Helpers/*": ["Infrastructure/Helpers/*"],
+      "@/lib/*": ["Infrastructure/lib/*"],
+      "@/hooks/*": ["Infrastructure/hooks/*"],
       "@/UserInterface/*": ["Web/UserInterface/*"],
+      "@/data/*": ["data/*"],
       "@/Payload/*": ["UseCases/Payload/*"],
       "@/UseCase/*": ["UseCases/UseCase/*"],
       "@/components/*": ["src/components/*"],
-      "@/data/*": ["data/*"],
-      "@/hooks/*": ["src/hooks/*"],
       "@/layouts/*": ["src/layouts/*"],
-      "@/lib/*": ["lib/*"],
       "@/styles/*": ["src/styles/*"]
     }
   }
