@@ -1,13 +1,9 @@
 import Spesification from "@/UseCase/_Spesification";
 
 let fakeData = {
-  name: 'Rahmat Agung Julians',
-  email: 'rahmatagungj@gmail.com'
+  greeting: 'Hello World',
 } 
 
 export default function Controller() {
-
-  const {name, email} = fakeData
-
-  return new Spesification().run({greeting})
+  return new Spesification().run(fakeData)
 }
