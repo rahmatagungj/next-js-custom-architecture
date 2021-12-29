@@ -14,7 +14,7 @@ export default class Payload {
 
     if (this.data instanceof Error || !this.data) {
       this.status = 500
-      this.data = Exception['PAGE_RENDER_NOT_FOUND']
+      this.data = Exception['DATA_NOT_FOUND']
     }
 
     return this
