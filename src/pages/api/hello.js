@@ -1,10 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-import Payload from "@/Payload/Payload"
+import HelloApiSpesification from "@/UseCase/api/HelloApiSpesification"
 
 export default function handler(req, res) {
-
-  const payload = new Payload(200, { name: 'John Doe' })
-
-  res.status(payload.status).json(payload.data)
+  return new HelloApiSpesification(req, res, 200, { greeting: 'Hello' }).run()
 }
