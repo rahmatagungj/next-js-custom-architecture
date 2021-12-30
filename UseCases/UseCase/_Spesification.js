@@ -1,4 +1,4 @@
-import Payload from "@/Payload/Payload";
+import Payload from "@/Infrastructure/Payload/Payload";
 import UserInterface from "@/UserInterface/_UserInterface";
 
 export default class Spesification {

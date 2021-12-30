@@ -1,4 +1,4 @@
-import Payload from '@/Payload/Payload'
+import Payload from '@/Infrastructure/Payload/Payload'
 import ApiResponse from '@/Response/ApiResponse'
 
 export default class ApiSpesification {

@@ -7,8 +7,6 @@
       "@/hooks/*": ["Infrastructure/hooks/*"],
       "@/UserInterface/*": ["Web/UserInterface/*"],
       "@/data/*": ["data/*"],
-      "@/Payload/*": ["UseCases/Payload/*"],
-      "@/Response/*": ["UseCases/Response/*"],
       "@/UseCase/*": ["UseCases/UseCase/*"],
       "@/components/*": ["src/components/*"],
       "@/layouts/*": ["src/layouts/*"],

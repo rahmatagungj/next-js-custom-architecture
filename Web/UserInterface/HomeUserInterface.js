@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import kebabCase from '@/Infrastructure/lib/kebabCase'
+import Head from 'next/head';
 
 
 let count = 0
@@ -16,6 +17,7 @@ export default function HomeUserInterface({name, email}) {
 
   return (
     <div>
+      <Head />
       <h1>{kebabCase(names)}</h1>
       <p>
         {email}

@@ -1,5 +1,5 @@
-import Payload from '@/Payload/Payload'
-import ApiResponse from '@/Response/ApiResponse'
+import Payload from '@/Infrastructure/Payload/Payload'
+import ApiResponse from '@/Infrastructure/Response/ApiResponse'
 
 export default class HelloApiSpesification {
   /**

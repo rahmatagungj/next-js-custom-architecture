@@ -1,4 +1,4 @@
-import Payload from "@/Payload/Payload";
+import Payload from "@/Infrastructure/Payload/Payload";
 import HomeUserInterface from "@/UserInterface/HomeUserInterface";
 
 export default class HomeSpesification {
