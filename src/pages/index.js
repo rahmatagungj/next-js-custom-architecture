@@ -1,4 +1,4 @@
-import HomeSpesification from "@/UseCase/HomeSpesification";
+import HomeSpecification from "@/UseCase/HomeSpecification";
 
 let name = 'Rahmat Agung Julians' 
 let email = 'rahmatagungj@gmail.com'
@@ -14,5 +14,5 @@ export async function getStaticProps(context) {
 }
 
 export default function HomeController(props) {
-  return new HomeSpesification().run(props)
+  return new HomeSpecification().run(props)
 }

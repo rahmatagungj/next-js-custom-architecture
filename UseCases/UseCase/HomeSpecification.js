@@ -1,7 +1,7 @@
 import Payload from "@/Infrastructure/Payload/Payload";
-import UserInterface from "@/UserInterface/_UserInterface";
+import HomeUserInterface from "@/UserInterface/HomeUserInterface";
 
-export default class Spesification {
+export default class HomeSpecification {
 
   /**
    * 
@@ -9,7 +9,7 @@ export default class Spesification {
    * @returns 
    */
   run(props) {
-    const payload = new Payload(200, new UserInterface(props))  
+    const payload = new Payload(200, HomeUserInterface(props))  
     
     if (payload.status === 200) {
       return payload.data

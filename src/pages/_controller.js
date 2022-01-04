@@ -1,9 +1,9 @@
-import Spesification from "@/UseCase/_Spesification";
+import Specification from "@/UseCase/_Specification";
 
 let fakeData = {
   greeting: 'Hello World',
 } 
 
 export default function Controller() {
-  return new Spesification().run(fakeData)
+  return new Specification().run(fakeData)
 }

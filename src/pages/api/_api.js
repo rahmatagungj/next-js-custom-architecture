@@ -1,4 +1,4 @@
-import ApiSpesification from '@/UseCase/api/_ApiSpesification'
+import ApiSpecification from '@/UseCase/api/_ApiSpecification'
 
 /**
  *
@@ -7,5 +7,5 @@ import ApiSpesification from '@/UseCase/api/_ApiSpesification'
  * @returns
  */
 export default function handler(req, res) {
-  return new ApiSpesification(req, res, 200, { greeting: 'Hello' }).run()
+  return new ApiSpecification(req, res, 200, { greeting: 'Hello' }).run()
 }
