@@ -4,15 +4,20 @@ import Head from 'next/head';
 
 
 let count = 0
+let timer = null
 
 export default function HomeUserInterface({name, email}) {
  const [names, setNames] = useState(name);
 
  useEffect(() => {
-   setInterval(() => {
+  timer = setInterval(() => {
      setNames(name + ' ' + count);
      count++;
    }, 1000);
+
+  return () => {
+    if (timer) clearInterval(timer);
+  }
  }, [name])
 
   return (
