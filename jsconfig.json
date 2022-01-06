@@ -2,14 +2,16 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/Infrastructure/*": ["Infrastructure/*"],
-      "@/lib/*": ["Infrastructure/lib/*"],
-      "@/hooks/*": ["Infrastructure/hooks/*"],
+      "@/Infrastructure/*": ["src/Infrastructure/*"],
       "@/UserInterface/*": ["Web/UserInterface/*"],
-      "@/data/*": ["data/*"],
-      "@/UseCase/*": ["UseCases/UseCase/*"],
+      "@/UseCase/*": ["src/UseCases/UseCase/*"],
       "@/components/*": ["src/components/*"],
+      "@/data/*": ["data/*"],
+      "@/hooks/*": ["src/Infrastructure/hooks/*"],
+      "@/Response/*": ["src/Infrastructure/Response/*"],
+      "@/Payload/*": ["src/Infrastructure/Payload/*"],
       "@/layouts/*": ["src/layouts/*"],
+      "@/lib/*": ["src/Infrastructure/lib/*"],
       "@/styles/*": ["src/styles/*"]
     }
   }
