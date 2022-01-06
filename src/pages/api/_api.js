@@ -1,4 +1,6 @@
+// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import ApiSpecification from '@/UseCase/api/_ApiSpecification'
+import ApiResponse from '@/Response/ApiResponse'
 
 /**
  *
@@ -7,5 +9,11 @@ import ApiSpecification from '@/UseCase/api/_ApiSpecification'
  * @returns
  */
 export default function handler(req, res) {
-  return new ApiSpecification(req, res, 200, { greeting: 'Hello' }).run()
+  const payload = new ApiSpecification({ greeting: 'Hello' }).run()
+
+  const response = new ApiResponse(req, res, payload.status, payload.data)
+
+  response.setHeader('Cache-Control', 'public, s-maxage=1200, stale-while-revalidate=600')
+
+  return response.json()
 }

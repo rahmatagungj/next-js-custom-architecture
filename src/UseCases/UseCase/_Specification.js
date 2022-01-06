@@ -1,5 +1,5 @@
-import Payload from "@/Infrastructure/Payload/Payload";
-import UserInterface from "@/UserInterface/_UserInterface";
+import Payload from "src/Infrastructure/Payload/Payload";
+import UserInterface from "src/Web/UserInterface/_UserInterface";
 
 export default class Specification {
 

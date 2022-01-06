@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import kebabCase from '@/Infrastructure/lib/kebabCase'
+import kebabCase from '@/lib/kebabCase'
 import Head from 'next/head';
 
 

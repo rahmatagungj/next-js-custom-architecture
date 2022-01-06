@@ -1,4 +1,4 @@
-import { Exception } from '@/Infrastructure/Exception' 
+import { Exception } from 'src/Infrastructure/Exception' 
 
 export default class Payload {
   
