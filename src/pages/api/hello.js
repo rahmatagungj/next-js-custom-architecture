@@ -1,5 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import HelloApiSpecification from "src/UseCases/UseCase/api/HelloApiSpecification"
+import HelloApiSpecification from "@/UseCase/api/HelloApiSpecification"
 import ApiResponse from '@/Response/ApiResponse'
 
 /**

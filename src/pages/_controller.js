@@ -1,4 +1,4 @@
-import Specification from "src/UseCases/UseCase/_Specification";
+import Specification from "@/UseCase/_Specification";
 
 let fakeData = {
   greeting: 'Hello World',

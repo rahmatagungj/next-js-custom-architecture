@@ -1,4 +1,4 @@
-import HomeSpecification from "src/UseCases/UseCase/HomeSpecification";
+import HomeSpecification from "@/UseCase/HomeSpecification";
 
 let name = 'Rahmat Agung Julians' 
 let email = 'rahmatagungj@gmail.com'
