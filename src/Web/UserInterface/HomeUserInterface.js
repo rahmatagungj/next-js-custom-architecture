@@ -21,13 +21,21 @@ export default function HomeUserInterface({ greeting }) {
           This Next JS has been made in such a way as to suit the implementation{" "}
           <br />
           of clean architecture and Domain Driven Development. <br />
-          <code className="code"><a href="https://www.codesimplicity.com/post/what-is-overengineering/">{kebabCase("Over Engineering")}</a> use only</code>
+          <code className="code">
+            <a href="https://www.codesimplicity.com/post/what-is-overengineering/">
+              {kebabCase("Over Engineering")}
+            </a>{" "}
+            use only
+          </code>
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h2>Next JS Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a
+            href="https://github.com/rahmatagungj/next-js-custom-architecture/generate"
+            className="card"
+          >
+            <h2>Use this Template on Github &rarr;</h2>
+            <p>You can use this template for building a project</p>
           </a>
 
           <a
@@ -35,9 +43,7 @@ export default function HomeUserInterface({ greeting }) {
             className="card"
           >
             <h2>Learn Clean Architecture &rarr;</h2>
-            <p>
-              Learn about Clean Architecture by Robert C. Martin (Uncle Bob).
-            </p>
+            <p>Learn about Clean Architecture.</p>
           </a>
 
           <a
@@ -48,14 +54,9 @@ export default function HomeUserInterface({ greeting }) {
             <p>See the Concept of Domain-Driven Design.</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h2>Connect with Me on Github &rarr;</h2>
-            <p>
-              Lets connect and discuss with me on Github
-            </p>
+          <a href="https://nextjs.org/docs" className="card">
+            <h2>Next JS Documentation &rarr;</h2>
+            <p>Find in-depth information about Next.js.</p>
           </a>
         </div>
       </main>
