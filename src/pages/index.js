@@ -1,6 +1,6 @@
 import HomeSpecification from "@/UseCase/HomeSpecification";
 
-let greeting = 'Next.js!'
+let greeting = 'HELLO'
 
 
 export async function getStaticProps(context) {
