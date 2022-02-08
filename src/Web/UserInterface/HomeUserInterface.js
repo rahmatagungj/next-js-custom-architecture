@@ -20,7 +20,7 @@ export default function HomeUserInterface({ greeting }) {
         <p className="description">
           This Next JS has been made in such a way as to suit the implementation{" "}
           <br />
-          of clean architecture and Domain Driven Development. <br />
+          of Clean Architecture and Domain Driven Design. <br />
           <code className="code">
             <a href="https://www.codesimplicity.com/post/what-is-overengineering/">
               {kebabCase("Over Engineering")}
@@ -50,7 +50,7 @@ export default function HomeUserInterface({ greeting }) {
             href="https://en.wikipedia.org/wiki/Domain-driven_design"
             className="card"
           >
-            <h2>About Domain Driven Development &rarr;</h2>
+            <h2>About Domain Driven Design &rarr;</h2>
             <p>See the Concept of Domain-Driven Design.</p>
           </a>
 
