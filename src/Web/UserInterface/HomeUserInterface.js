@@ -1,4 +1,3 @@
-import kebabCase from "@/lib/kebabCase";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -13,7 +12,7 @@ export default function HomeUserInterface({ greeting }) {
 
       <main className="main">
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">{ greeting }</a>
         </h1>
 
         <p className="description">
